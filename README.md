@@ -14,6 +14,6 @@ Termux-এর জন্য তৈরি Facebook অ্যাকাউন্ট 
 ```bash
 pkg update && pkg upgrade
 pkg install python git
-git clone https://github.com/আপনার_ইউজারনাম/facebook-account-checker
+git clone https://github.com/itsmejisan/facebook-account-checker.git
 cd facebook-account-checker
 pip install -r requirements.txt
