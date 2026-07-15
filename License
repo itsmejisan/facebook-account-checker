@@ -1,0 +1,19 @@
+
+---
+
+## 📄 ৪. install.sh
+
+```bash
+#!/bin/bash
+
+echo -e "\033[32m🔥 Facebook Account Checker Installer\033[0m"
+echo -e "\033[36m====================================\033[0m"
+
+pkg update -y && pkg upgrade -y
+pkg install python git -y
+pip install -r requirements.txt
+termux-setup-storage
+
+echo -e "\033[32m✅ ইনস্টলেশন সম্পন্ন!\033[0m"
+echo -e "\033[33m📌 এখন Your_Number.txt ফাইল তৈরি করুন\033[0m"
+echo -e "\033[33m📌 এবং ACCESS_TOKEN সেট করুন\033[0m"
