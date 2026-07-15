@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+*.csv
+*.xlsx
+Your_Proxy.txt
+Your_Number.txt
