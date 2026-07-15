@@ -1,8 +1,3 @@
-
----
-
-## 📄 ৪. install.sh
-
 ```bash
 #!/bin/bash
 
